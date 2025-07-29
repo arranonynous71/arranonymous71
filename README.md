@@ -1,11 +1,5 @@
 # Revisiting Intermediate-Layer Matching Knowledge Distillation: Layer-Selection Strategy Doesn’t Matter (Much)
 
-### Important Environment Details 
-- Python: `3.9.19` 
-- Huggingface: `4.1.0`
-- PyTorch: `2.3.0`
-- PyTorch-Lightning: `1.0.4`
-
 ## Classification 
 
 ### Environment Details 
