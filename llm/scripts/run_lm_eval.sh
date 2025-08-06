@@ -25,7 +25,7 @@ accelerate launch \
     -m lm_eval \
         --model hf \
         --model_args pretrained=$MODEL,parallelize=False,dtype=bfloat16,trust_remote_code=true \
-        --tasks=hellaswag \
+        --tasks=$TASK \
         --num_fewshot=0 \
         --gen_kwargs num_beams=1 \
         --batch_size 30 \
